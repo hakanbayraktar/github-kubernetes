@@ -37,6 +37,8 @@ jobs:
 
       - name: Configure kubectl with Kubeconfig
         run: echo "${{ secrets.KUBECONFIG }}" > $HOME/.kube/config
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: List files
         run: ls -la
       - name: Deploy to Kubernetes
