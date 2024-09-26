@@ -1,4 +1,4 @@
-
+readmeyi düzelt
 # Gereksinimler
 1-Jenkins için ubuntu server
 2-Nodejs için ubuntu server
